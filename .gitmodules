@@ -1,0 +1,6 @@
+[submodule "map_simulator"]
+	path = map_simulator
+	url = https://github.com/oKermorgant/map_simulator.git
+[submodule "turtlebot3_xacro"]
+	path = turtlebot3_xacro
+	url = https://github.com/CentraleNantesRobotics/turtlebot3_xacro.git
