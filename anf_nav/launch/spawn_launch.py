@@ -16,7 +16,7 @@ def launch_setup():
         request = {'robot_namespace': '__ns', 'static_tf_odom': gt}
 
         if robot == 'bb8':
-            sl.robot_state_publisher('anf_launch', 'bb8.xacro')
+            sl.robot_state_publisher('anf_nav', 'bb8.xacro')
             # run velocity -> joints
             sl.node('anf_nav', 'vel2joints.py')
 
